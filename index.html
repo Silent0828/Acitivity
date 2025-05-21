@@ -45,19 +45,19 @@
       var defaultSize = { width: 150, height: 150 };
 
       $("#inc-w").click(function () {
-        box.width(box.width() + 20);
+        box.width(box.width() + 30);
       });
 
       $("#dec-w").click(function () {
-        box.width(box.width() - 20);
+        box.width(box.width() - 30);
       });
 
       $("#inc-h").click(function () {
-        box.height(box.height() + 20);
+        box.height(box.height() + 30);
       });
 
       $("#dec-h").click(function () {
-        box.height(box.height() - 20);
+        box.height(box.height() - 30);
       });
 
       $("#reset").click(function () {
@@ -68,8 +68,8 @@
     </script>		
 
   </head>
-  <body>
-    <h2 class="mb-4 text-center pb-5">Resize the box</h2>
+  <body bg-dark>
+    <h2 class="mb-4 text-center pb-5 text-light">Resize the box</h2>
 
   <div id="resize-box">
     <button class="btn btn-light resize-btn" id="inc-w">+Width</button>
